@@ -1,0 +1,15 @@
+name: "websiteDraft"
+title: "Rudradev Sengupta"
+description: |
+  Home Page of Rudradev Sengupta
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Gallery"
+      href: gallery.html
+
+output: distill::distill_article
